@@ -31,8 +31,11 @@ Not all components are available through JLCPCB assembly. Purchase the remaining
 - **J1** — 40-pin Raspberry Pi GPIO header
 - **J2** — Molex Mini-Fit Jr 4-pin power connector
 - **J3** — PJ-320B 3.5mm audio jack
+- **J5** — JST SH 1.0mm 2-pin fan output header (BM02B-SRSS-TB) — optional, populate if using a cooling fan
 
-Refer to `BOM/PiGarage_BOM.txt` for the full parts list with part numbers.
+For J5, also source the mating wire-side connector: JST **SHR-02V-S** housing and **SSH-003T-P0.2-H** contacts (both available on DigiKey). Crimp the contacts onto the fan's bare 28AWG leads, insert into the housing, and plug into J5.
+
+Refer to `BOM/design-notes.txt` for the full parts list with part numbers and design rationale.
 
 ## 6. Install Software
 

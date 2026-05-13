@@ -12,6 +12,7 @@ Open-source Raspberry Pi power management and audio HAT for automotive head-unit
 - **4-Channel Optoisolated 12V Sensing** — ACC, REV, ILL, AUX via LTV-847S
 - **Safe Shutdown** — ACC-triggered power latch with GPIO hold (BCM25), crank ride-through
 - **Battery Protection** — UVLO hard cutoff at 12.08V via TL431A comparator
+- **Fan Output** — JST SH 1.0mm 2-pin connector (Pi 5 fan style) for 25mm buck cooler fan
 - **Compatible** — Raspberry Pi 3, 4, and 5
 
 ## Board
