@@ -31,9 +31,11 @@ Not all components are available through JLCPCB assembly. Purchase the remaining
 - **J1** — 40-pin Raspberry Pi GPIO header
 - **J2** — Molex Mini-Fit Jr 4-pin power connector
 - **J3** — PJ-320B 3.5mm audio jack
-- **J5** — JST SH 1.0mm 2-pin fan output header (BM02B-SRSS-TB) — optional, populate if using a cooling fan
+- **J5** — JST PH 2.0mm 2-pin fan output header (B2B-PH-K-S) — optional, populate if using a cooling fan
 
-For J5, also source the mating wire-side connector: JST **SHR-02V-S** housing and **SSH-003T-P0.2-H** contacts (both available on DigiKey). Crimp the contacts onto the fan's bare 28AWG leads, insert into the housing, and plug into J5.
+For J5, also source the mating wire-side connector: JST **PHR-2** housing and **SPH-002T-P0.5L** contacts (both available on DigiKey). Crimp the contacts onto the fan's bare wires, insert into the housing, and plug into J5.
+
+> **Note:** J5 is available on JLCPCB as C131337, but it is an **Extended** part — JLCPCB charges ~$3 per unique extended part as a feeder setup fee. Since J5 is a simple through-hole connector, it is cheaper to hand-solder it yourself and skip the extended part fee.
 
 Refer to `BOM/design-notes.txt` for the full parts list with part numbers and design rationale.
 

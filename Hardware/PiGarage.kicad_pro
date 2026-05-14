@@ -66,7 +66,7 @@
           "Not Needed"
         ],
         [
-          "unconnected_items|83464259|35325171|F.Cu|4|c934005f-7953-4022-8acc-ecf74c6a1c15|dc64981a-759f-4899-8a00-c0752d70abaa",
+          "unconnected_items|83464259|35325171|F.Cu|4|c934005f-7953-4022-8acc-ecf74c6a1c15|38ff3c8d-d869-493c-befc-6b35e856f6ce",
           "Not Needed"
         ]
       ],
@@ -812,7 +812,7 @@
         "uuid": "503e97ef-bbbe-4c93-b8b4-cfc18a0fd228"
       }
     ],
-    "used_designators": "J5,#PWR17,#PWR30",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [

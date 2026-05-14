@@ -8,7 +8,7 @@ All SMT parts assembled by JLCPCB PCBA unless noted.
 - Molex Mini-Fit Jr 6-pin car harness header
 - Molex Mini-Fit Jr 4-pin ADC header
 - PJ-320B 3.5mm TRS audio jack
-- J5 — JST SH 1.0mm 2-pin fan output header (BM02B-SRSS-TB)
+- J5 — JST PH 2.0mm 2-pin fan output header (B2B-PH-K-S)
 
 **Wire-side parts (DigiKey — see Section 7 for full shopping list):**
 - Discrete cable assemblies: cut in half for colour-coded pigtails
@@ -477,14 +477,15 @@ Total: ~$16 for two complete connector sets with spares. One DigiKey order, no s
 - **JLCPCB:** C22355831 — PJ-320B, SMD 3-pin TRS
 - **Notes:** Hand-solder onto board. Standard 3.5mm jack — use any TRS cable or 3.5mm→RCA adapter for amplifier connection.
 
-### J5 — Fan Output (JST SH 1.0mm 2-pin)
-- **PCB header:** JST BM02B-SRSS-TB (1.0mm pitch, 2-pin, vertical, top-contact SMD)
-- **KiCad FP:** `Connector_JST:JST_SH_BM02B-SRSS-TB_1x02-1MP_P1.00mm_Vertical`
-- **Mating connector:** JST SHR-02V-S housing + SSH-003T-P0.2-H contacts (28–32AWG)
+### J5 — Fan Output (JST PH 2.0mm 2-pin)
+- **PCB header:** JST B2B-PH-K-S(LF)(SN) (2.0mm pitch, 2-pin, vertical, through-hole)
+- **JLCPCB:** C131337 (Extended, 357k stock, wave-solderable — but hand-solder recommended to avoid ~$3 extended part fee)
+- **KiCad FP:** `Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical`
+- **Mating connector:** JST PHR-2 housing + SPH-002T-P0.5L contacts (24–28AWG)
 - **Pinout:** Pin 1 = +5V, Pin 2 = GND
 - **Purpose:** 5V power output for a 25×25mm cooling fan mounted above the buck converter (U1). Taps the unfiltered 5V rail directly — no additional filtering required since the DAC AVDD supply is already isolated via ferrite (FB1) and LDO (U4).
-- **Compatible fan:** Sunon MF25060V1-1000U-A99 or any 25mm 5V 2-wire fan with 28AWG leads.
-- **Notes:** Same connector family as the official Raspberry Pi 5 fan. Hand-solder. Crimp SSH-003T contacts onto fan bare wires, insert into SHR-02V-S housing, plug into J5. Place J5 near U1 on the PCB — short trace to 5V rail, away from audio section.
+- **Compatible fan:** Sunon MF25060V1-1000U-A99 or any 25mm 5V 2-wire fan with 24–28AWG leads.
+- **Notes:** Through-hole, keyed, locking tab — suitable for vibration-prone automotive environment. Hand-solder or JLCPCB Standard assembly. Crimp SPH-002T contacts onto fan bare wires, insert into PHR-2 housing, plug into J5. Place J5 near U1 on the PCB — short trace to 5V rail, away from audio section.
 
 ---
 
