@@ -449,14 +449,14 @@ All four analog inputs (A0–A3) routed to the 4-pin Molex connector (item 51). 
 - **Notes:** Hand-solder. Standard RPi HAT through-hole connector.
 
 ### 50. Car Harness Connector — Molex Mini-Fit Jr 6-pin (2×3)
-- **PCB header:** [0455580003](https://www.digikey.com/en/products/detail/molex/0455580003/3311349) (vertical, dual row, 4.2mm pitch, black LCP, glow-wire)
+- **PCB header:** [1724470206](https://www.digikey.com/en/products/detail/molex/1724470206/5116910) (vertical, dual row, 4.2mm pitch, natural)
 - **Wire-side cable:** [0451350603](https://www.digikey.com/en/products/detail/molex/0451350603/6822677) — 6-circuit discrete cable, 300mm, colour-coded wires, housing pre-loaded. Cut in half → two pigtail harnesses.
 - **KiCad FP:** Connector_Molex:Molex_Mini-Fit_Jr_5566-06A_2x03_P4.20mm_Vertical
 - **Notes:** Mini-Fit Jr (4.2mm pitch), the standard ATX power connector. 13A per pin, -40 to +105°C. 2×3 dual row is compact and sturdy on the PCB (16.9mm wide). Hand-soldered.
 - **Pinout:** Pin 1: BAT+ / Pin 2: GND / Pin 3: ACC / Pin 4: ILL / Pin 5: REV / Pin 6: AUX
 
 ### 51. ADC Analog Input Connector — Molex Mini-Fit Jr 4-pin (2×2)
-- **PCB header:** Molex 0462071004 (vertical, dual row, 4.2mm pitch, black LCP, glow-wire)
+- **PCB header:** [1724470204](https://www.digikey.com/en/products/detail/molex/1724470204/5116909) (vertical, dual row, 4.2mm pitch, natural)
 - **Wire-side cable:** [0451350403](https://www.digikey.com/en/products/detail/molex/0451350403/6822667) — 4-circuit discrete cable, 300mm, colour-coded wires, housing pre-loaded. Cut in half → two pigtail harnesses.
 - **KiCad FP:** Connector_Molex:Molex_Mini-Fit_Jr_5566-04A_2x02_P4.20mm_Vertical
 - **Pinout:** Pin 1: A0 / Pin 2: A1 / Pin 3: A2 / Pin 4: A3
@@ -466,8 +466,8 @@ All four analog inputs (A0–A3) routed to the 4-pin Molex connector (item 51). 
 
 | Qty | Part | DigiKey Link | Description | ~Price |
 |-----|------|-------------|-------------|--------|
-| 2 | 0455580003 | [link](https://www.digikey.com/en/products/detail/molex/0455580003/3311349) | 6-pin PCB header, black LCP | $2.50 ea |
-| 2 | 0462071004 | search DigiKey | 4-pin PCB header, black LCP | $2.00 ea |
+| 2 | 1724470206 | [link](https://www.digikey.com/en/products/detail/molex/1724470206/5116910) | 6-pin PCB header | ~$1.50 ea |
+| 2 | 1724470204 | [link](https://www.digikey.com/en/products/detail/molex/1724470204/5116909) | 4-pin PCB header | ~$1.30 ea |
 | 1 | 0451350603 | [link](https://www.digikey.com/en/products/detail/molex/0451350603/6822677) | 6-ckt cable 300mm (cut in half → 2 pigtails) | ~$5 |
 | 1 | 0451350403 | [link](https://www.digikey.com/en/products/detail/molex/0451350403/6822667) | 4-ckt cable 300mm (cut in half → 2 pigtails) | ~$4 |
 
