@@ -28,9 +28,10 @@ In the **Component Placements** preview, you will need to ensure the components 
 
 Not all components are available through JLCPCB assembly. Purchase the remaining parts from DigiKey (or your preferred distributor) and hand-solder them:
 
-- **J1** — 40-pin Raspberry Pi GPIO header
-- **J2** — Molex Mini-Fit Jr 4-pin power connector
+- **J1** — Molex Mini-Fit Jr 6-pin car harness header — DigiKey [1724470206](https://www.digikey.com/en/products/detail/molex/1724470206/5116910)
+- **J2** — Molex Mini-Fit Jr 4-pin ADC analog input header — DigiKey [1724470204](https://www.digikey.com/en/products/detail/molex/1724470204/5116909)
 - **J3** — PJ-320B 3.5mm audio jack
+- **J4** — 40-pin Raspberry Pi GPIO header (2×20, 2.54mm)
 - **J5** — JST PH 2.0mm 2-pin fan output header (B2B-PH-K-S) — optional, populate if using a cooling fan
 
 For J5, also source the mating wire-side connector: JST **PHR-2** housing and **SPH-002T-P0.5L** contacts (both available on DigiKey). Crimp the contacts onto the fan's bare wires, insert into the housing, and plug into J5.
