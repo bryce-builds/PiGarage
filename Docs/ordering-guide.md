@@ -46,7 +46,7 @@ Order the matching wire-side cables and any optional accessories:
 - **J2 harness** — Molex [0451350403](https://www.digikey.com/en/products/detail/molex/0451350403/6822667) — 4-circuit pre-crimped cable, 300mm. Cut in half → two 150mm pigtails.
 - **Cooling fan (optional)** — Sunon [MF25060V1-1000U-A99](https://www.digikey.com/en/products/detail/sunon-fans/MF25060V1-1000U-A99/10441399) — 25×25×6mm, 5VDC, 13kRPM, 24.8dBA. Mounts in the 3D-printed cover above U1.
 - **Standoffs** — Würth [971080154](https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/971080154/9488614) — M2.5 brass hex, 8mm height. Quantity: 4 (one per Pi/HAT mounting hole).
-- **Screws** — Essentra [50M025045P012](https://www.digikey.com/en/products/detail/essentra-components/50M025045P012/11639132) — M2.5×12mm nylon pan-head Phillips. Quantity: 4. Long enough for the 3D-printed cover + HAT + standoff stack.
+- **Screws** — Essentra [50M025045P012](https://www.digikey.com/en/products/detail/essentra-components/50M025045P012/11639132) — M2.5×12mm nylon pan-head Phillips. Quantity: 7 (4 for Pi/HAT mounting, 3 for the fan on the cover).
 
 Refer to `BOM/design-notes.txt` for the full parts list with part numbers and design rationale.
 
