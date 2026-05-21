@@ -38,6 +38,7 @@ PiGarage/
 ├── Production/         Gerbers, drill files, pick-and-place
 ├── BOM/                Bill of Materials and design notes
 ├── Images/             Board renders and schematic exports
+├── Cover/              3D-printable enclosure / fan cover (STEP/STL)
 ├── Software/           Power latch daemon and systemd service
 └── Docs/               Ordering and assembly guide
 ```
