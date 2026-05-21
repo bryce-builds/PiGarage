@@ -490,9 +490,9 @@ Total: ~$16 for two complete connector sets with spares. One DigiKey order, no s
 
 ### 52. Mounting Hardware — Standoffs & Screws
 - **Standoffs:** [Würth 971080154](https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/971080154/9488614) — M2.5 brass hex standoff, 8mm height, nickel-plated. Mounts between Pi and HAT.
-- **Screws:** [Essentra 50M025045P012](https://www.digikey.com/en/products/detail/essentra-components/50M025045P012/11639132) — M2.5×12mm nylon pan-head Phillips. Long enough to pass through the 3D-printed cover, into a heat-set insert, through the HAT, and into the standoff.
-- **Quantity:** 4 standoffs + 4 screws per board (one per Pi/HAT mounting hole).
-- **Notes:** Pi to HAT spacing is 8mm. If adding a fan cover on top, use M2.5×12mm so the screw clears cover + HAT thickness and threads fully into the standoff/insert.
+- **Screws:** [Essentra 50M025045P012](https://www.digikey.com/en/products/detail/essentra-components/50M025045P012/11639132) — M2.5×12mm nylon pan-head Phillips.
+- **Quantity:** 4 standoffs + 7 screws per board (4 for Pi/HAT mounting, 3 for the fan on the 3D-printed cover).
+- **Notes:** Pi to HAT spacing is 8mm. The M2.5×12mm length covers both jobs: long enough to pass through the cover into a heat-set insert + through the HAT into the standoff, and also long enough to fix the 6.5mm-tall Sunon fan down onto the cover. Fan uses a 3-hole mounting pattern (not 4).
 
 ---
 
