@@ -2,6 +2,8 @@
 
 Open-source Raspberry Pi power management and audio HAT for automotive head-unit use.
 
+![PiGarage Board with Cover](Images/board-cover.png)
+
 ![PiGarage Board](Images/Front.png)
 
 ## Features
