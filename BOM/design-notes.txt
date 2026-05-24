@@ -489,10 +489,10 @@ Total: ~$16 for two complete connector sets with spares. One DigiKey order, no s
 - **Notes:** Through-hole, keyed, locking tab — suitable for vibration-prone automotive environment. Hand-solder or JLCPCB Standard assembly. Crimp SPH-002T contacts onto fan bare wires, insert into PHR-2 housing, plug into J5. Place J5 near U1 on the PCB — short trace to 5V rail, away from audio section.
 
 ### 52. Mounting Hardware — Standoffs & Screws
-- **Standoffs:** [Würth 971080154](https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/971080154/9488614) — M2.5 brass hex standoff, 8mm height, nickel-plated. Mounts between Pi and HAT.
+- **Standoffs:** [Würth 971110154](https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/971110154/9488627) — M2.5 brass hex standoff, 11mm body + 6mm male stud, nickel-plated. Mounts between Pi and HAT. 11mm matches GPIO header plastic body (2.5mm) + pin extension (8.5mm) so the HAT seats fully and standoffs share the load.
 - **Screws:** [Essentra 50M025045P012](https://www.digikey.com/en/products/detail/essentra-components/50M025045P012/11639132) — M2.5×12mm nylon pan-head Phillips.
 - **Quantity:** 4 standoffs + 7 screws per board (4 for Pi/HAT mounting, 3 for the fan on the 3D-printed cover).
-- **Notes:** Pi to HAT spacing is 8mm. The M2.5×12mm length covers both jobs: long enough to pass through the cover into a heat-set insert + through the HAT into the standoff, and also long enough to fix the 6.5mm-tall Sunon fan down onto the cover. Fan uses a 3-hole mounting pattern (not 4).
+- **Notes:** Pi to HAT spacing is 11mm to clear the GPIO header (2.5mm body + 8.5mm pin extension). The M2.5×12mm length covers both jobs: long enough to pass through the cover into a heat-set insert + through the HAT into the standoff, and also long enough to fix the 6.5mm-tall Sunon fan down onto the cover. Fan uses a 3-hole mounting pattern (not 4).
 
 ---
 
